@@ -27,6 +27,9 @@
     "tufte.min.css",
     "et-book/"
   ],
+  "engines": {
+    "node": ">=18"
+  },
   "devDependencies": {
     "@playwright/test": "^1.61.1"
   }
