@@ -20,6 +20,8 @@
   },
   "homepage": "https://edwardtufte.github.io/tufte-css/",
   "scripts": {
+    "build": "cleancss -o tufte.min.css tufte.css",
+    "prepublish": "npm run build",
     "test": "playwright test"
   },
   "files": [
@@ -31,6 +33,7 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1"
+    "@playwright/test": "^1.61.1",
+    "clean-css-cli": "^5.6.3"
   }
 }

@@ -45,7 +45,7 @@ Tests use [Playwright](https://playwright.dev/) to assert computed CSS propertie
 Deploying
 -
 1. Make changes
-2. From shell, invoke [clean-css-cli](https://github.com/jakubpawlowicz/clean-css-cli): `cleancss -o tufte.min.css tufte.css`
+2. From shell: `npm run build`
 3. Bump version in *package.json*
 4. From shell: `npm publish`
 
