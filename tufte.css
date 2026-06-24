@@ -240,6 +240,10 @@ img {
     height: auto;
 }
 
+figure.fullwidth img {
+    width: 100%;
+}
+
 .sidenote,
 .marginnote {
     float: right;
