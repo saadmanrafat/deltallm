@@ -37,6 +37,11 @@ That means that JavaScript solutions, although often superior to pure CSS, are o
 This project is maintained but not under active development. It is considered essentially feature-complete. Refactoring and new functionality are a very low priority. However, contributions are still welcome to fix bugs or add functionality.
 
 
+Testing
+-
+Tests use [Playwright](https://playwright.dev/) to assert computed CSS properties. `npm install` to set up, `npm test` to run. Fixtures in `tests/` are plain HTML files — open one directly in a browser to inspect a feature in isolation.
+
+
 Deploying
 -
 1. Make changes

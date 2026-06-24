@@ -19,9 +19,15 @@
     "url": "https://github.com/edwardtufte/tufte-css/issues"
   },
   "homepage": "https://edwardtufte.github.io/tufte-css/",
+  "scripts": {
+    "test": "playwright test"
+  },
   "files": [
-      "tufte.css",
-      "tufte.min.css",
-      "et-book/"
-  ]
+    "tufte.css",
+    "tufte.min.css",
+    "et-book/"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
 }
